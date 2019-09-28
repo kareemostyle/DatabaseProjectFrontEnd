@@ -1,0 +1,129 @@
+/* Login CSS format. */
+
+/* Make the background color light blue. */
+#bodyformat {
+	background-color: lightblue;
+	background-image: url('../images/cwru1.jpg'), url('../images/cwru1.jpg');
+	background-size: 300px 300px, 300px 300px;
+	background-position: left top, right top;
+	background-repeat: no-repeat;
+}
+
+/* Set the padding of blocks at 50px. */
+#divformat {
+	padding: 5px;
+}
+
+/* Format for the main web page button. */
+#bcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+/* Class: Center
+   Usage: Used to make images centered. */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* Class: Container
+   Usage: Used to make a container for blocks. */
+.container {
+	padding: 10px;
+	text-align: center;
+}
+
+#addcontainer {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+}
+
+/* Format used for all header1's. */
+h1 {
+	text-align: center;
+	color: dodgerblue;
+	font-size: 60px;
+}
+
+/* Format used for all paragraphs. */
+p {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+}
+
+/* Format used for form. */
+form {
+	border: 1px solid #f1f1f1;
+}
+
+/* Format used for the input boxes. */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Format used for the buttons. */
+button {
+	background-color: blue;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%
+	font-size: 50px;
+}
+
+/* The animation used when hovering over a button. */
+button:hover {
+	opacity: 0.6;
+}
+
+/* Format used for link buttons */
+a:link, a:visited {
+	background-color: black;
+	color: lightblue;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/* Animation when hovering over link buttons. */
+a:hover, a:active {
+	background-color: blue;
+}
+
+/* Format used for labels. */
+label {
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* Format used for select boxes. */
+select {
+	display: inline-block;
+	font-size: 20px;
+	color: lightblue;
+	background-color: grey;
+}
